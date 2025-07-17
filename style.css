@@ -39,6 +39,12 @@
 .bold {
   font-weight: bold;
 }
+.t-bold {
+  font-weight: bold;
+  font-size: 2.8rem;
+
+}
+
 .semi-bold{
     font-size: 2.8rem;
     font-weight: 700;
@@ -124,8 +130,54 @@ nav ul a {
 }
 .sub-cont{
     flex-direction: column;
-    gap: 20px;
-    padding-top: 30px;
+    gap: 7vh;
+    padding: 30px;
+}
+.sub-cont h5{
+    font-size: 20px;
+    font-weight: 700;
+  margin-bottom: 3vh;
+  color: #131313;
+}
+.sub-cont p{
+    font-size: 0.95rem;
+    line-height: 26px;
+  color: #727272;
+  
+}
+.exprience-content h1{
+  margin-bottom: 5vh;
+  border-left: 5px solid #ff900e;
+  padding-left: 15px;
+}
+.exprience-content p{
+  margin-bottom: 3vh;
+  line-height: 26px;
+}
+.discount{
+  background-color: #ff900e;
+  color: white;
+  width: 17vw;
+  height: 17vh;
+  position: relative;
+  bottom: 10%;
+  left: 7%;
+  z-index: 2;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 42px;
+  border-radius: 10px;
+}
+.discount h1{
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 70px;
+}
+.discount p{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 40px;
 }
 
 /* Some Facts */
@@ -236,10 +288,42 @@ nav ul a {
   width: 95%;
 }
 
+.exprience{
+    margin: 10px auto;
+    flex-direction: column;
+}
+.exprience-content h1{
+  margin-left: 10px;
+  padding-right: 15px;
+}
+.exprience-content p{
+  margin-left: 10px;
+}
+
+.exprience-img img{
+  width: 95%;
+  margin: 0 15px;
+  height: 50%;
+}
+.discount{
+  width: 45vw;
+  height: 10vh;
+  padding: 30px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 120px;
+}
+
+.discount h1{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 70px;
+}
 .some-facts{
     width: 92%;
     margin-left: 6vw;
 }
+
 .facts-container{
     grid-template-columns: repeat(1,1fr);
     margin: 0 auto;
