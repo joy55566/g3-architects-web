@@ -234,6 +234,11 @@ nav ul a {
 .banner-immg {
   width: 95%;
 }
+
+.some-facts{
+    width: 92%;
+    margin-left: 6vw;
+}
 .facts-container{
     grid-template-columns: repeat(1,1fr);
     margin: 0 auto;
@@ -266,5 +271,6 @@ nav ul a {
     height: auto;
    
 }
+
 
 }
