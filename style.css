@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* share styles */
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.dark1{
+    color: #131313;
+}
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.primary-color{
+    color: #FF900E;
+}
+.btn-primary{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    color: white ;
+    border: none;
+    width: 10rem;
+}
+.display-flex{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+}
+/* header style */
+
+/* Navbar style */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 10px 10vw;
+}
+.logo{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.nav-links {
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+}
+nav ul a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.banner{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.banner-title{
+    text-align: center;
+    margin: 0 auto 50px;
+    max-width: 862px;
+}
+.banner-title h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.banner-title p {
+    font-size: 0.9rem;
+    margin: 32px 0;
+}
+.banner-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner-immg{
+    width: 80%;
+}
+/* teams section */
+.teams{
+    gap: 50px;
+    margin: 50px 10vw;
+}
+.teams-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.teams-content{
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: left;
+}
+.p0{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.pp{
+    font-size: 0.8rem;
+}
