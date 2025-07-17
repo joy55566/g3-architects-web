@@ -333,6 +333,7 @@ nav ul a {
 .facts-container{
     grid-template-columns: repeat(1,1fr);
     margin: 0 auto;
+    gap: 67px;
 }
 .f-ph{
     font-size: 0.9rem;
@@ -342,6 +343,7 @@ nav ul a {
 .inside-card{
     height: 30vh;
     width: 90%;
+    border-radius: 10px;
 }
 .sponspors-box{
     display: grid;
@@ -350,6 +352,9 @@ nav ul a {
     filter: grayscale(100%);
     gap: 30px;
 
+}
+.sponspors{
+  margin-top: 60px;
 }
 .sponspors p{
     font-size: 0.9rem;
