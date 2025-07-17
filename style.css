@@ -39,6 +39,11 @@
 .bold {
   font-weight: bold;
 }
+.semi-bold{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #424242;
+}
 /* header style */
 
 /* Navbar style */
@@ -113,6 +118,88 @@ nav ul a {
 .pp {
   font-size: 0.8rem;
 }
+/* Exprience section */
+.exprience{
+    margin: 15vh 7vw;
+}
+.sub-cont{
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+/* Some Facts */
+
+.some-facts{
+    width: 100%;
+    margin-left: 6vw;
+}
+
+.f-head{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.f-ph{
+    font-size: 0.9rem;
+    margin-bottom: 80px;
+}
+
+.facts-container{
+    width: 70%;
+    margin: 0 4.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5vw;
+    padding-bottom: 20px;
+}
+
+.inside-card{
+    border: 2px solid sandybrown;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 15vw;
+}
+.inside-card h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: #727272;
+}
+
+/* sponspors section */
+
+.sponspors{
+    text-align: center;
+    margin-top: 160px;
+}
+.sponspors-box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 8vw;
+    filter: grayscale(100%);
+
+}
+.sponspors p{
+    font-size: 0.9rem;
+    margin: 30px 0;
+
+}
+
+
+/* Footer */
+.foot{
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 18vh auto 20vh;
+    width: 85vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.foot p{
+    font-size: 20px;
+}
 
 /* responsive for mobile device */
 @media screen and (max-width: 576px) {
@@ -139,4 +226,45 @@ nav ul a {
   grid-template-columns: repeat(1, 1fr);
   gap: 15px;
 }
+.banner-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.banner-immg {
+  width: 95%;
+}
+.facts-container{
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 auto;
+}
+.f-ph{
+    font-size: 0.9rem;
+    margin-bottom: 80px;
+}
+
+.inside-card{
+    height: 30vh;
+    width: 90%;
+}
+.sponspors-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 28vw;
+    filter: grayscale(100%);
+    gap: 30px;
+
+}
+.sponspors p{
+    font-size: 0.9rem;
+    margin: 5px 0;
+
+}
+.foot{
+    margin: 70px auto;
+    width: auto;
+    height: auto;
+   
+}
+
 }
