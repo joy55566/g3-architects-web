@@ -299,11 +299,15 @@ nav ul a {
 .exprience-content p{
   margin-left: 10px;
 }
+.exprience-img{
+  width: auto;
+}
 
 .exprience-img img{
-  width: 95%;
-  margin: 0 15px;
+  width: 90%;
+  margin-left: 20px;
   height: 50%;
+  border: 1px solid #ff900e;
 }
 .discount{
   width: 45vw;
