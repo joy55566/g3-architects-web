@@ -308,7 +308,7 @@ nav ul a {
   margin-left: 20px;
   height: 50%;
   border: 1px solid #ff900e;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .discount{
   width: 45vw;
@@ -316,6 +316,7 @@ nav ul a {
   padding: 30px;
   position: relative;
   left: 20%;
+  bottom: 10vh;
   margin-bottom: 120px;
 }
 
