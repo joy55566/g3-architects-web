@@ -308,6 +308,7 @@ nav ul a {
   margin-left: 20px;
   height: 50%;
   border: 1px solid #ff900e;
+  border-radius: 15px;
 }
 .discount{
   width: 45vw;
@@ -344,7 +345,7 @@ nav ul a {
 .sponspors-box{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 0 28vw;
+    margin: 35px 28vw 0;
     filter: grayscale(100%);
     gap: 30px;
 
